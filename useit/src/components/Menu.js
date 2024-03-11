@@ -17,8 +17,14 @@ const Menu = () => {
                 <Link to="/main">
                     <button className="main-button">Main</button>
                 </Link>
-                <Link to="/footer">
-                    <button className="footer-button">Footers</button>
+                <Link to="/dialogbox">
+                    <button className="dialogbox-button">Dialog Box</button>
+                </Link>
+                <Link to="/expansionpanel">
+                    <button className="expansionpanel-button">Expansion Panel</button>
+                </Link>
+                <Link to="/datepicker">
+                    <button className="datepicker-button">Date Picker</button>
                 </Link>
                 <Link to="/about">
                     <button className="about-button">About</button>
