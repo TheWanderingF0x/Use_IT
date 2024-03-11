@@ -3,16 +3,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Menu from './Menu';
 
-const Footer = () => {
+const LoginForms = () => {
     return (
         <div>
-            <Menu />
-            <div className='footer_use-it'>
-                <h1>Footer ideas</h1>
+          <Menu />
+            <div className='loginForms_use-it'>
+                <h1>Login forms ideas</h1>
 
             </div>
         </div>
     )
 }
 
-export default Footer;
+export default LoginForms;

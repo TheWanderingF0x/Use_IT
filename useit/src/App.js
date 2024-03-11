@@ -6,6 +6,7 @@ import NavBars from './components/NavBars';
 import Footer from './components/Footer';
 import About from './components/About';
 import Main from './components/Main';
+import LoginForms from './components/LoginForms';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/main' exact Component={Main}/>
           <Route path='/footer' exact Component={Footer}/>
           <Route path='/about' exact Component={About}/>
+          <Route path='/loginforms' exact Component={LoginForms}/>
         </Routes>
       </Router>   
     </div>
